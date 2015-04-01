@@ -1,4 +1,5 @@
 // JavaScript Document
+var currSong="";
 $(document).ready(function(e){
 	document.addEventListener("deviceready",function(){
 		
@@ -11,7 +12,7 @@ $(document).ready(function(e){
 		});//tap vibrar
 		
 		$('#pbeep').tap(function(){
-			textContent = "Pause"
+			 document.getElementById(currSong).pause();
 		});//tap beep
 		
 		
