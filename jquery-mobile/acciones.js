@@ -13,10 +13,8 @@ $(document).ready(function(e){
 		
 		
 		
-		$.each($('#pbeep'), function () {
-   		 $(this).stop();
-		});
-		
+		$('#beep').tap(function(){
+		});//tap beep
 		
 	},false);//deviceready
 });//ready
