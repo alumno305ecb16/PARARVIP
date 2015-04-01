@@ -13,7 +13,7 @@ $(document).ready(function(e){
 		
 		
 		
-		$.each($('pbeep'), function () {
+		$.each($('#pbeep'), function () {
    		 $(this).stop();
 		});
 		
