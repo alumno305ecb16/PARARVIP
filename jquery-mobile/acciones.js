@@ -11,12 +11,9 @@ $(document).ready(function(e){
 		});//tap vibrar
 		
 		$('#pbeep').tap(function(){
-			navigator.notification.beep(2);
+			textContent = "Pause"
 		});//tap beep
 		
-		$('#p1beep').tap(function(){
-			navigator.notification.beep(3);
-		});//tap beep
 		
 		
 	},false);//deviceready
