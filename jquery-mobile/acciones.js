@@ -12,7 +12,7 @@ $(document).ready(function(e){
 		});//tap vibrar
 		
 		$('#pbeep').tap(function(){
-			 document.getElementById(currSong).pause();
+			  $(this).stop();
 		});//tap beep
 		
 		
