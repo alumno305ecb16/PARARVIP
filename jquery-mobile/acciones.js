@@ -11,10 +11,11 @@ $(document).ready(function(e){
 			navigator.notification.vibrate(1000);
 		});//tap vibrar
 		
-		$('#pbeep').tap(function(){
-			  $(this).stop();
-		});//tap beep
 		
+		
+		$.each($('pbeep'), function () {
+   		 $(this).stop();
+		});
 		
 		
 	},false);//deviceready
